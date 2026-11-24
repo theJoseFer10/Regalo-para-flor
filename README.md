@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Personalización del regalo
+
+El sistema solar (sol + 5 planetas con tema propio) se configura en
+`lib/solar-system.ts`. Ahí puedes cambiar los nombres, colores y mensajes de
+cada astro, y las criaturas de cada superficie en `SURFACE_LIFE`. La escena 3D
+vive en `components/solar-system-scene.tsx` (viaje en nave, terrenos y
+flora/fauna incluidos).
+
 ## Getting Started
 
 First, run the development server:
